@@ -40,7 +40,6 @@
   "build": {
     "productName": "Raven Reader",
     "appId": "org.helloefficiency.ravenreader",
-    "afterSign": "notarize.js",
     "directories": {
       "output": "build"
     },
@@ -67,6 +66,7 @@
       ]
     },
     "mac": {
+      "identity": null,
       "darkModeSupport": true,
       "publish": [
         {
@@ -173,7 +173,6 @@
     "electron-debug": "^3.0.0",
     "electron-devtools-installer": "^2.2.4",
     "electron-log": "^3.0.0",
-    "electron-notarize": "^0.2.0",
     "eslint": "^5.1.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-friendly-formatter": "^4.0.1",
